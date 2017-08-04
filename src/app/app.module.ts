@@ -15,6 +15,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { DropdownDirective } from './shared/dropdown.directive';
 import { ShoppingListService } from './shopping-list/shopping-list.service';
 import { NoSelectionComponent } from './recipes/no-selection/no-selection.component';
+import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { NoSelectionComponent } from './recipes/no-selection/no-selection.compon
     ShoppingListComponent,
     ShoppingEditComponent,
     DropdownDirective,
-    NoSelectionComponent
+    NoSelectionComponent,
+    RecipeEditComponent
   ],
   imports: [
     BrowserModule,
